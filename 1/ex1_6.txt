@@ -1,0 +1,3 @@
+The given program fragment is not legal  because the usage of output operator << is not valid. More specifically, the << operator needs to take two operands; but in the given program fragement, the left side of operator <<, where ostream object should be given, is empty.
+
+This problem can be fixed by adding the ostream object at the left side of << operator.w

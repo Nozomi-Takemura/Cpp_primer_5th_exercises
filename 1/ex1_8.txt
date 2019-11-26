@@ -1,0 +1,38 @@
+std::cout << "*/";
+-> legal 
+--> output */
+ANSQWER = /*
+
+std::cout << /* "*/" */;
+-> not legal
+--> error since no string operand is given to << operator
+ANSWER----
+ex1_8_c.cpp:3:21: warning: missing terminating " character
+  std::cout << /* "*/" */;
+                     ^
+ex1_8_c.cpp:3:21: error: missing terminating " character
+  std::cout << /* "*/" */;
+                     ^~~~~
+ex1_8_c.cpp: In function ‘int main()’:
+ex1_8_c.cpp:4:1: error: expected primary-expression before ‘}’ token
+ }
+ ^
+----------
+
+
+std::cout << /*  "*/" /* "/*"  */;
+-> not legal
+--> error because nested /* */ comment out
+--> error since no string operand is given to << operator
+ANSWER----------
+/*
+----------------
+--> because input is read as /* " */ & "/*" & /*"*/
+
+std::cout << "/*";
+-> legal
+--> output /*
+ANSWER----
+output = /*
+----------
+

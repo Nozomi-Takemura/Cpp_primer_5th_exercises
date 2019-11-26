@@ -1,0 +1,16 @@
+(a) "Who goes with F\145rgus?\012"
+- string literals of type char
+- Whos ges with Fergus? + newline(escape sequence)
+- octal \012=escape sequence  
+
+(b) 3.14e1L
+- 31.4
+- triple-precision floating-point literal; type is Long
+(c) 1024f
+- nothing -- error
+- if .1024 --> 0.1024
+- if 1024. --> 1024
+- type float
+(d) 3.14L
+-3.14
+- type long

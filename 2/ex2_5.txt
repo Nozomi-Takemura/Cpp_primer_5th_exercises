@@ -1,0 +1,33 @@
+Exercise 2.5: Determine the type of each of the following literals. Explain
+the differences among the literals in each of the four examples:
+(a) 'a', L'a', "a", L"a"
+ANSWER:
+- 'a' = literal of type char (the single character a)
+- L'a' = literal of type wchar_t
+- "a" = String literal (an array of two characters; a & null character)
+- L"a" = String literal of type long char (array of wchar_t)
+
+(b) 10, 10u, 10L, 10uL, 012, 0xC
+- 10: signed decimal literals OR signed integer literals
+- 10u: unsigned Integer literals
+- 10L; signed Long literals
+- 012: octral literals
+- 0xc: hexadecimal literals
+
+(c) 3.14, 3.14f, 3.14L
+3.14: floating-point literal of type double
+3.14f: floating-point literal of type float
+3.14L: floating-point literal of type long double
+
+(d) 10, 10u, 10., 10e-2
+-10; signed decimal literals OR signed integer literals - type int
+-10u: unsigned int
+-10.: type: double becuase no suffix is added
+-10e-2: type - double 
+
+
+c++ output:
+----
+sieze of 10u: 4 10: 4 10.: 8 10e-2: 8 3.14: 8 3.14f: 4 3.14L: 16
+----
+

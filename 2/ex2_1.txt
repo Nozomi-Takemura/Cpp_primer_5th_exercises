@@ -1,0 +1,16 @@
+Q: What are the differences between int, long, long long,
+and short? 
+
+A: These four types are different w.r.t the minimum size:
+- int : 16 bits,
+- long : 32 bits,
+- long long : 64 bits,
+- short : 16 bits 
+
+Q: Between an unsigned and a signed type? 
+
+A: A signed type represents negative or positive number; while an unsigned type represents only values >= 0
+
+Q: Between a float and a double?
+A: float - 6 significant digits vs double - 10 significant digits. Float does not have enough precision in general.
+

@@ -1,0 +1,5 @@
+No. The pointer stores address of an object. When a pointer is initilized, it should have 0; however, it has some value of address when it is not initilized, which cannot be differenciated from the pointer to which a valid object is correctly assigned.  
+Ex.: 
+0x7ffd204129a0 <-- no initialization
+0x7ffd204128ac <-- after assignment
+

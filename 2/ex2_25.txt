@@ -1,0 +1,6 @@
+a - 
+ ip: a pointer to int, r: a reference to the pointer to int(ip)
+b -
+ i: int, ip: pointer to int
+c -
+ ip: a pointer to int, ip2: int

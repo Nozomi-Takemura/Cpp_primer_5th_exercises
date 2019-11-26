@@ -1,0 +1,6 @@
+int i = 42;    
+void *p = &i;      
+long *lp = &i;
+
+The 2nd line is valid since the type is pointer to void, meaning that p can hold the address of any type of object.
+On the other hand, the 3rd line in illegal because lp is the pointer to long, while i has the int type.

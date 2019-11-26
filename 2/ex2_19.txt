@@ -1,0 +1,5 @@
+Explain the key differences between pointers and references.
+--
+Answer:
+Pointers are object but references are not.
+--> once we have defined a reference, there is no way to make that difference refer to a different object.

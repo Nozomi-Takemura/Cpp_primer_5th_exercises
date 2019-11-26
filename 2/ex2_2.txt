@@ -1,0 +1,8 @@
+Q: To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.
+
+A: I would use the followng types:
+- rate: double,
+- principal: double,
+- payment: double.
+
+Double is chose as type becuase the computational result on mortgage is important. Besides this, mortgage often related to a huge money; hence even with a slight change of the rate or payment caused by using smaller types instead of double, the impact is huge. Thus, double should be used.  
