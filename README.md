@@ -113,3 +113,6 @@ unsigned long ul1 = 3, ul2 = 7;
 - (d) `ul1 || ul2`: True
 
 # ****Soultions after ex4_28 are inside each folder.
+
+# 4_29:
+> Predict the output of ...
