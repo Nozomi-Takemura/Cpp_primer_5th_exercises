@@ -1,0 +1,8 @@
+bookNo=0-201-78345-X units_sold=5 revenue=110
+bookNo=0-202-12345-X units_sold=7 revenue=106
+bookNo=0-202-12347-X units_sold=1 revenue=60
+bookNo=0-202-12346-X units_sold=7 revenue=21
+bookNo=0-201-78345-X units_sold=5 revenue=110
+bookNo=0-202-12345-X units_sold=7 revenue=106
+bookNo=0-202-12347-X units_sold=1 revenue=60
+bookNo=0-202-12346-X units_sold=7 revenue=21
